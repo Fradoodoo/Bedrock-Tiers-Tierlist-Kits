@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Showcase</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #121212; 
+            color: white; 
+        }
+        .kit-container { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+            margin-top: 20px; 
+        }
+        .kit-card { 
+            background: #222; 
+            padding: 15px; 
+            border-radius: 10px; 
+            width: 300px; 
+            text-align: center; 
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+            transition: transform 0.3s ease; /* For smooth enlargement effect */
+        }
+        .kit-title { 
+            font-size: 1.5em; 
+            font-weight: bold; 
+            margin-bottom: 5px; 
+        }
+        .kit-description { 
+            font-size: 1em; 
+            margin-bottom: 15px; 
+            opacity: 0.8; 
+        }
+        .kit-image { 
+            width: 100%; 
+            height: 250px; /* Set a consistent height */
+            object-fit: contain; /* This keeps the image proportional and avoids cutting off */
+            border-radius: 10px; 
+            transition: transform 0.3s ease; /* For smooth enlargement effect */
+        }
+        .kit-card:hover .kit-image {
+            transform: scale(1.1); /* Enlarges the image slightly on hover */
+        }
+        .kit-card:hover {
+            transform: scale(1.05); /* Slightly enlarges the entire card */
+        }
+    </style>
+</head>
+<body>
+    <h1>Kit Showcase</h1>
+    <div class="kit-container">
+
+        <div class="kit-card">
+            <div class="kit-title">Vanilla Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="https://i.postimg.cc/8cs7t7tk/813040-F1-41-B8-461-B-A29-E-FD9-A7-AD545-B8-1-201-a.jpg" alt="Vanilla Kit">
+
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Vanilla Drain Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="vanilla-drain-kit.png" alt="Vanilla Drain Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Sword Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="sword-kit.png" alt="Sword Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">UHC Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="uhc-kit.png" alt="UHC Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Potion Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="potion-kit.png" alt="Potion Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Bow Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="bow-kit.png" alt="Bow Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Netherite Potion Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="netherite-potion-kit.png" alt="Netherite Potion Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">SMP Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="smp-kit.png" alt="SMP Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Axe Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="axe-kit.png" alt="Axe Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Mace Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="mace-kit.png" alt="Mace Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Lifesteal Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="lifesteal-kit.png" alt="Lifesteal Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Iron Potion Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="https://i.postimg.cc/6p3V2Qd0/nathy.webp" alt="Iron Potion Kit">
+
+
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Speed Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="speed-kit.png" alt="Speed Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">Cart Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="cart-kit.png" alt="Cart Kit">
+        </div>
+
+        <div class="kit-card">
+            <div class="kit-title">OG Vanilla Kit</div>
+            <div class="kit-description">[Write description here]</div>
+            <img class="kit-image" src="og-vanilla-kit.png" alt="OG Vanilla Kit">
+        </div>
+
+    </div>
+</body>
+</html>
