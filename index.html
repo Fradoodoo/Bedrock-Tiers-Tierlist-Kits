@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kit Showcase</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            background-color: #121212; 
-            color: white; 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
         }
-        .kit-container { 
+
+        .kit-container {
             display: flex;
-            flex-wrap: wrap; 
-            justify-content: center; 
-            gap: 20px; 
-            margin-top: 20px; 
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
         }
-        .kit-card { 
-            background: #222; 
-            padding: 15px; 
-            border-radius: 10px; 
-            width: 300px; 
-            text-align: center; 
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
-            transition: transform 0.3s ease; /* For smooth enlargement effect */
+
+        .kit-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+            /* For smooth enlargement effect */
         }
-        .kit-title { 
-            font-size: 1.5em; 
-            font-weight: bold; 
-            margin-bottom: 5px; 
+
+        .kit-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
         }
-        .kit-description { 
-            font-size: 1em; 
-            margin-bottom: 15px; 
-            opacity: 0.8; 
+
+        .kit-description {
+            font-size: 1em;
+            margin-bottom: 15px;
+            opacity: 0.8;
             text-align: left;
         }
-        .kit-image { 
-            width: 100%; 
-            height: 250px; /* Set a consistent height */
-            object-fit: contain; /* This keeps the image proportional and avoids cutting off */
-            border-radius: 10px; 
-            transition: transform 0.3s ease; /* For smooth enlargement effect */
+
+        .kit-image {
+            width: 100%;
+            height: 250px;
+            /* Set a consistent height */
+            object-fit: contain;
+            /* This keeps the image proportional and avoids cutting off */
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            /* For smooth enlargement effect */
         }
+
         .kit-card:hover .kit-image {
-            transform: scale(1.1); /* Enlarges the image slightly on hover */
+            transform: scale(1.13);
+            /* Enlarges the image slightly on hover */
         }
+
         .kit-card:hover {
-            transform: scale(1.05); /* Slightly enlarges the entire card */
+            transform: scale(1.065);
+            /* Slightly enlarges the entire card */
         }
     </style>
 </head>
+
 <body>
     <h1>Kit Showcase</h1>
     <div class="kit-container">
@@ -60,106 +75,243 @@
             <div class="kit-title">Vanilla Kit</div>
             <div class="kit-description">
                 <ul>
-                    <li><b>Netherite Sword:</b> Sharpness 5, Unbreaking 3, Mending</li>
-                    <li><b>Netherite Pickaxe:</b> Efficiency 5, Unbreaking 3, Mending</li>
-                    <li><b>Netherite Axe:</b> Sharpness 5, Unbreaking 3, Mending</li>
-                    <li><b>Shield:</b> Unbreaking 3, Mending</li>
-                    <li><b>Crossbow:</b> Any Enchants</li>
-                    <li><b>Netherite Leggings:</b> Protection 4, Unbreaking 3, Mending</li>
-                    <li><b>Excess Armour:</b> Protection 4, Unbreaking 3, Mending</li>
+                    <li><b>Netherite Sword:</b> Unbreaking 3, Mending and Knockback 2</li>
+                    <li><b>Netherite Pickaxe:</b> Unbreaking 3, Mending and Efficiency 3</li>
+                    <li><b>Netherite Axe:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Shield:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Crossbow:</b> Any enchants</li>
+                    <li><b>Netherite Leggings:</b> Blast Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Excess Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
                 </ul>
             </div>
-            <img class="kit-image" src="https://i.postimg.cc/8cs7t7tk/813040-F1-41-B8-461-B-A29-E-FD9-A7-AD545-B8-1-201-a.jpg" alt="Vanilla Kit">
+
+
+            <img class="kit-image"
+                src="https://i.postimg.cc/8cs7t7tk/813040-F1-41-B8-461-B-A29-E-FD9-A7-AD545-B8-1-201-a.jpg"
+                alt="Vanilla Kit">
 
 
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Vanilla Drain Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="https://i.postimg.cc/43KkbM79/0-B6828-AF-D9-D8-44-C1-B073-2-B2-C34-C7761-D-1-201-a.jpg" alt="Vanilla Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword:</b> Unbreaking 3, Mending and Knockback 1</li>
+                    <li><b>Netherite Pickaxe:</b> Unbreaking 3, Mending and Efficiency 3</li>
+                    <li><b>Netherite Axe:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Shield:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Crossbow:</b> Any enchants</li>
+                    <li><b>Elytra:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Mace:</b> Unbreaking 3, Wind Burst 2, Density 3 and Mending</li>
+                    <li><b>Netherite Leggings:</b> Blast Protection 3, Unbreaking 3 and Mending</li>
+                    <li><b>Excess Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Speed 2 (1:30)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/43KkbM79/0-B6828-AF-D9-D8-44-C1-B073-2-B2-C34-C7761-D-1-201-a.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Sword Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="sword-kit.png" alt="Sword Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/ZqKkbz9G/bb0f295c-4dfe-4c48-ada8-a711769a466e.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">UHC Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="uhc-kit.png" alt="UHC Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Diamond Sword:</b> Unbreaking 3 and Sharpness 2</li>
+                    <li><b>Diamond Pickaxe:</b> Unbreaking 3 and Efficiency 2</li>
+                    <li><b>Diamond Axe:</b> Unbreaking 3 and Sharpness 2</li>
+                    <li><b>Crossbow:</b> Unbreaking 3 and Piercing 1</li>
+                    <li><b>Bow:</b> Power 2 and Unbreaking 3</li>
+                    <li><b>All Armour:</b> Protection 3 and Unbreaking 3</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/BQBppLb0/a5ee7216-3fb2-464b-8b07-e5bba219179b.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Potion Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="potion-kit.png" alt="Potion Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Diamond Sword:</b> Unbreaking 3 and Sharpness 4</li>
+                    <li><b>Bow:</b> Power 3, Unbreaking 3 and Punch 1</li>
+                    <li><b>All Armour:</b> Protection 4 and Unbreaking 3</li>
+                    <li><b>Potions:</b> Regeneration (0:45), Strength (3:00), Speed (3:00), Instant Heal 2 </li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/s2bRVgVD/6a606fb8-38ad-4ff3-8f10-cc6f7083ed90.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Bow Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="bow-kit.png" alt="Bow Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Bow:</b> Power 3, Unbreaking 3 and Infinity</li>
+                    <li><b>All Armour:</b> Protection 3 and Unbreaking 3</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/26dpYp21/f7083dfa-f97d-4ba5-aec5-22cc2f1e3e18.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Netherite Potion Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="netherite-potion-kit.png" alt="Netherite Potion Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword:</b> Sharpness 3, Fire Aspect 1, Unbreaking 3 and Mending</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Fire Resistance (8:00), Strength (3:00), Speed (3:00), Instant Heal 2 </li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/jq3jk9ks/80ca1100-eac8-44e4-9a7a-203a4fbd17fe.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">SMP Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="smp-kit.png" alt="SMP Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword 1:</b> Sharpness 2, Fire Aspect 2, Unbreaking 3 and Mending</li>
+                    <li><b>Netherite Sword 2:</b> Sharpness 2, Fire Aspect 2, Unbreaking 3, Mending and Knockback 1</li>
+                    <li><b>Netherite Axe:</b> Sharpness 2, Unbreaking 3 and Mending</li>
+                    <li><b>Shield:</b> Unbreaking 3 and Mending</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Fire Resistance (8:00), Strength (3:00), Speed (3:00)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/66MGsKhS/04d5c749-d332-4d0c-9fad-086a9c82beb8.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Axe Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="axe-kit.png" alt="Axe Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Diamond Axe:</b> Sharpness 1</li>
+                    <li><b>All Armour:</b> Protection 2</li>
+
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/d39cSCSf/56faec01-9f35-48cc-9465-a77fa6367a57.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Mace Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="mace-kit.png" alt="Mace Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword:</b> Sharpness 2 and Unbreaking 3</li>
+                    <li><b>Netherite Axe:</b> Sharpness 2 and Unbreaking 3</li>
+                    <li><b>Shield:</b> Unbreaking 3 and Mending</li>
+                    <li><b>Mace 1:</b> Unbreaking 3, Wind Burst 1 and Density 5</li>
+                    <li><b>Mace 2:</b> Unbreaking 3 and Breach 4</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Leaping 2 (1:30), Strength (3:00), Speed (3:00)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/k57h2YJR/34e13d5b-e817-4f72-8791-14146a218c84.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Lifesteal Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="lifesteal-kit.png" alt="Lifesteal Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword:</b> Sharpness 4, Unbreaking 3, Fire Aspect 2 and Mending</li>
+                    <li><b>Netherite Pickaxe:</b> Unbreaking 3, Efficiency 3 and Mending</li>
+                    <li><b>Bow:</b> Unbreaking 3, Mending, Power 3 and Punch 1</li>
+                    <li><b>Netherite Axe:</b> Unbreaking 3, Sharpness 4 and Mending</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Fire Resistance (8:00), Strength (3:00), Speed (3:00)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/GhYhxKYm/866b8150-e80f-4173-8265-bb9f710c4c62.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Iron Potion Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="https://i.postimg.cc/6p3V2Qd0/nathy.webp" alt="Iron Potion Kit">
-
+            <div class="kit-description">
+                <ul>
+                    <li><b>Diamond Sword:</b> Sharpness 2 and Unbreaking 3</li>
+                    <li><b>Bow:</b> Power 2</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Instant Health 2</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/GhWMLS6R/2ddb0942-5a05-4df4-8319-17fb49ed2528.jpg"
+                alt="Vanilla Kit">
 
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Speed Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="speed-kit.png" alt="Speed Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Speed 2 (1:30) </li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/L6ZsgN6v/a4357edb-6c1e-45f0-b8d1-cc2fc684c118.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">Cart Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="cart-kit.png" alt="Cart Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Netherite Sword:</b> Sharpness 3, Unbreaking 3, Fire Aspect 2, Knockback 1 and Mending</li>
+                    <li><b>Bow:</b> Unbreaking 3, Flame, Power 4 and Infinity</li>
+                    <li><b>Netherite Axe:</b> Unbreaking 3, Sharpness 3, Efficiency 5 and Mending</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Fire Resistance (8:00), Strength (3:00), Speed (3:00)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/kgN9mHf6/dfe75f46-e69e-4cdf-95ce-7c034a11f4a5.jpg"
+                alt="Vanilla Kit">
         </div>
 
         <div class="kit-card">
             <div class="kit-title">OG Vanilla Kit</div>
-            <div class="kit-description">[Write description here]</div>
-            <img class="kit-image" src="og-vanilla-kit.png" alt="OG Vanilla Kit">
+            <div class="kit-description">
+                <ul>
+                    <li><b>Diamond Sword:</b> Sharpness 1</li>
+                    <li><b>Bow:</b> Unbreaking 3 and Power 3</li>
+                    <li><b>All Armour:</b> Protection 4, Unbreaking 3 and Mending</li>
+                    <li><b>Potions:</b> Poison 2 (0:22), Strength 2 (1:30), Speed 2 (1:30)</li>
+                </ul>
+            </div>
+            <img class="kit-image"
+                src="https://i.postimg.cc/2808Jy8b/03720a52-b1a9-41b4-9451-16acfa355db6.jpg"
+                alt="Vanilla Kit">
         </div>
 
     </div>
 </body>
+
 </html>
